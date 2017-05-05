@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="plugin" group="system" method="upgrade">
+  <name>Data sync from Joomla Contacts to SuiteCRM / SugarCRM Leads and Contacts </name>
+  <author>Deligence Technologies Pvt Ltd</author>
+  <creationDate>2017-5-5</creationDate>
+  <copyright>Copyright (C) 2017 Deligence Technologies Pvt Ltd. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>sales@deligence.com</authorEmail>
+  <authorUrl>http://www.deligence.com </authorUrl>
+  <version>1.0.0</version>
+  <description>Data sync from Joomla Contacts to SuiteCRM / SugarCRM Leads and Contacts</description>
+  <files>
+    <filename plugin="DTSuiteSugarCRM">DTSuiteSugarCRM.php</filename>
+    <filename>index.html</filename>
+  </files>
+  
+   <config>
+		<fields name="params">
+		
+			<fieldset name="basic">
+				<field name="url" type="text" default="" label="SuiteCRM / SugarCRM URL " required="required" description="" size="20" />
+				<field name="username" type="text" default="" label="SuiteCRM / SugarCRM Username " required="required" description="" size="20" />
+				<field name="password" type="password" default="" label="SuiteCRM / SugarCRM Password " required="required" description="" size="20" />
+				<field name="lead" type="checkbox" label="Create Lead"  value="1" default="0" />
+				<field name="contact" type="checkbox" label="Create Contact"  value="1" default="0" />
+			</fieldset>
+
+        </fields>
+    </config>
+ 
+</extension>
