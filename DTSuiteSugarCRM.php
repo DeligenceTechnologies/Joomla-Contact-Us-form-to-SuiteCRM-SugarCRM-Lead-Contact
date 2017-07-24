@@ -1,4 +1,11 @@
 <?php 
+/**
+ * Data sync from Joomla Contacts to SuiteCRM / SugarCRM Leads and Contacts
+ * @version 1.0
+ * @package DTSuiteSugarCRM
+ * @copyright (C) 2017-2018 by Deligence Technologies Pvt Ltd.
+ * @license Released under the terms of the GNU General Public License
+**/
 defined('_JEXEC') or die('Restricted access');
 jimport( 'joomla.application.component.controller' );
 

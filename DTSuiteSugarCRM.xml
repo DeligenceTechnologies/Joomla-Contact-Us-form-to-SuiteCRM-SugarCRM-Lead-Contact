@@ -9,6 +9,13 @@
   <authorUrl>http://www.deligence.com </authorUrl>
   <version>1.0.0</version>
   <description>Data sync from Joomla Contacts to SuiteCRM / SugarCRM Leads and Contacts</description>
+  
+  <updateservers>
+		<server type="extension" priority="1" name="DTSuiteSugarCRM">
+			https://github.com/DeligenceTechnologies/Joomla-Contact-Us-form-to-SuiteCRM-SugarCRM-Lead-Contact
+		</server>
+	</updateservers>
+  
   <files>
     <filename plugin="DTSuiteSugarCRM">DTSuiteSugarCRM.php</filename>
     <filename>index.html</filename>
