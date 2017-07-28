@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.6" type="plugin" group="system" method="upgrade">
-  <name>Data sync from Joomla Contacts to SuiteCRM / SugarCRM Leads and Contacts </name>
+  <name>DTSuiteSugarCRM</name>
   <author>Deligence Technologies Pvt Ltd</author>
   <creationDate>2017-5-5</creationDate>
   <copyright>Copyright (C) 2017 Deligence Technologies Pvt Ltd. All rights reserved.</copyright>
